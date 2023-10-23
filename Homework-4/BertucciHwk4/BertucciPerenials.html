@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <style>
+        .bold-italic-purple {
+            font-weight: bold;
+            font-style: italic;
+            color: purple;
+        }
+
+        main {
+            height: 900px;
+            width: 100%;
+        }
+
+        article {
+            height: 300px;
+            width: 75%;
+        }
+
+        .bordered-image {
+            display: block;
+            border: 10px solid brown;
+            padding: 15px;
+            background-color: antiquewhite;
+            margin: auto;
+        }
+
+
+        article ol {
+            list-style-type: upper-roman;
+            padding-left: 20px;
+        }
+
+        article ol li ol li {
+            list-style-type: lower-alpha;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2 class="bold-italic-purple">Proven Perennials</h2>
+    </header>
+
+    <main>
+        <article>
+            <ol>
+                <li>Hardy in zones 5-9
+                    <ol>
+                        <li>Hardy Aster</li>
+                        <li>Monch bear</li>
+                        <li>New England Aster</li>
+                    </ol>
+                </li>
+                <li>Hardy in zones 5-10
+                    <ol>
+                        <li>Hummingbird mint</li>
+                        <li>Blue Giant Hyssop</li>
+                        <li>Blue Fortune</li>
+                        <li>Black Adder</li>
+                        <li>Agastache</li>
+                    </ol>
+                </li>
+                <li>Hardy in zones 3-9
+                    <ol>
+                        <li>Bellflower</li>
+                        <li>Bleeding heart</li>
+                    </ol>
+                </li>
+            </ol>
+        </article>
+
+        <article class="bordered-image">
+            <img src="assets/redtearose.jpeg" alt="Red Tea Rose">
+        </article>
+    </main>
+</body>
+
+</html>

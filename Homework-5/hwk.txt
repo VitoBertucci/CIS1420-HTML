@@ -1,0 +1,16 @@
+Hwk 5
+Due midnight Thursday, October 12, 2023
+
+    
+                
+
+
+	•	Open a new html5 document named ImageGallery.html
+
+    
+
+	•	After the <body> tag add:
+            <body>
+                
+            </body>            
+	•	Place the root folder, the assets folder and the html files into a zipped folder named yourlastnamehwk5 and upload the zipped folder to d2L under Hwk#5 within Assignments.

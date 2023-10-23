@@ -1,0 +1,37 @@
+Hwk #6
+
+Due October 19, 2023 
+
+
+
+•	Create five new html5 pages named safari, first, second, third, fourth.  
+•	Set the page background of first.html to yellow, the body background of second.html to green, the body background of third.html to the daisy.jpg and the background of the header tag of fourth.html to a linear-gradient of your choice ( 2 colors).  
+•	Navagation Bar with images:
+•	Add an opening and closing header tag after the opening body tag.  
+•	Add a figure tag within the header tag.  Use CSS to set the display to block for the figure tag
+•	Place the hedgehog.jpg within the figure tag.  Create a CSS class named hog for the hedghog image.  Set the display to block and the margin to auto within the class named hog. Assign the hog class to the hedgehog image.
+•	Add a figcaption tag.  The text is HedgHog Rules”.  Set the CSS for the figcaption: font family is Times New Roman, font size is 14px, font style is italic, color is #633 and the text align is center.
+•	Add an opening and closing nav tag within the header tag
+•	Place the meerkat.jpg, orangutan.jpg, rhino.jpg, and the turtle.jpg images within the nav tag
+•	Link the meerkat.jpg to first.html, link orangutan.jpg to second.html, rhino.jpg to third.html, and turtle.jpg to fourth.html
+•	Set the embedded CSS for the nav tag: height is 300px, width is 100%, display is block, top margin is 20px, and the left and right margins are set to auto, text-align rule is set to center.
+•	Set the embedded CSS for the images within the nav tag: the display is inline, margin 5px, and border is 0.
+•	Set embedded CSS outline rule for the anchor tag to 0.
+•	Add CSS to img:hover so that as the user rolls over the image opacity changes.
+
+
+
+•	Working with borderless tables:  Specifics on the zoo table.  Images are found in the homework6w2022.zip folder.
+•	The table is borderless. The width is 60% and the margin is auto.  Hint:  Set the CSS of the table tag
+•	The first row is a table header row <th> tag.  CSS:  The background color is light pink, font type is times new roman, italic, size 24.  It contains a 5px bottom border.   The color is purple.    Within the opening <th> tag add colspan = “2”
+•	The images CSS:   double brown border 7px, padding is 15px, and the background color is light yellow.
+•	The text CSS:  set the text so it is  vertically to top (Image below shows the default center, your file must show vertically aligned to top) and the cell padding to 10px
+•	Text for image #1: Notice how the zebra young stay so close to their mothers
+•	Text for image #2:  The female lioness is very attentive of her surroundings
+•	Text for image #3:  Visit our new aquarium to watch the dolphins play
+•	
+
+•	 Save your work.  Place your finished homework #6 into a zipped folder named <yourLastName>hwk6.zip
+
+
+
