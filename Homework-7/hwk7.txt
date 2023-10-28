@@ -1,0 +1,94 @@
+Directions:
+
+Place the html files into a folder named YourLastNameHwk7
+Place the images into an assets folder within the YourLastNameHwk7
+
+Part 1: Tables
+
+    1.Open a new html document. Save it as myTable.html.
+
+        a. Create the landscaping table as shown below. Use CSS for color, borders, cell padding, text alignment, etc.
+
+        b. Specifics on the landscaping table:
+        
+
+        CSS on landscaping table:
+            Selector: table
+
+
+top and bottom side border color: dark blue
+left and right side border color: cyan
+centered alignment
+width: 60%
+border-collapse: collapse
+
+
+            Table CSS:
+            - border-width: 5px
+            - border-style: outset
+            - top and bottom side border color: dark blue
+            - left and right sides are cyan
+            - table is centered
+            - width: 60%
+            - border-collapse: collapse
+
+            Table header cells CSS:
+            - first row table header cell text has dark blue drop shadow 
+
+            Table data cells:
+            - 2px solid green border 
+            - padding: 20px
+
+            row 1, 2, “Full Sun” and “Shade” heading cells:
+            - The table heading cells in rows 1 and 2 have a padding of 15px.
+
+            Caption at bottom:
+            - font-size: 16px
+            - font- style: italic
+            - color: #600
+            - font-weight: bold
+
+            
+            
+            table instructions instructions as given:
+            Specifics on the landscaping table:
+            - Border width is 5px, outset.  The top and bottom side border are dark blue, the left and right sides are cyan.  The table is centered and the width is 60%
+            - The border-collapse property uses collapse.
+            - Notice the use of the text-shadow property in the first row table header cell
+            - The table data cells have a 2px solid border, color is green. The left padding is 20px 
+            - Use appropriately named classes to set the background colors and the font color for the different table data cells.  
+            - The table header cells are found in rows 1, 2, and “Full Sun” and “Shade” cells. The table heading cells in rows 1 and 2 have a padding of 15px. Use appropriate class names to set the background color and font color. 
+            - Caption is placed at the bottom using CSS.  The font size is 16px, the style is italic, color is #600, font weight is bold.
+
+
+
+    2. Place the table shown below on an html page named auto.html
+
+
+Part 2: Multimedia—only the html files have been uploaded to d2l, not the images—just place the required multimedia on the pages
+
+    1. Open the file named blooms.html.
+
+        a. Add a clock widget using the website: https://www.zeitverschiebung.net/en/clock-widget to the header. Use Detroit, Michigan for the city and choose the small clock with minutes and seconds.
+
+        b. Copy the code given and place the code to the right of the image tag in the header.
+
+        c. CSS:
+            - header: height is 200px and width is 100%.
+            - img: float left. Left margin is 30px and right margin is 20px. top padding is 25px.
+            - div: display is inline-block. Border is 3px solid green. Move the inline style code of the div tag to the style tag.
+            - a, span, and iframe: move inline properties to embedded (move to <style>)
+
+
+    2. Open the aboutUs.html file
+        a. Use the <iframe> tag to place a youTube movie about fishing at the bottom of the page.
+        b. Place the width and height of the iframe into embedded CSS.
+        c. Set the padding to 20px.
+        d. Add a gradient background to the background of the padding.
+        e. Add a red outset border that is 5px. Make the border rounded.
+        f. Add a box shadow.
+
+
+
+
+Place your site into a zipped folder named yourlastnameHwk7and upload to Desire2Learn

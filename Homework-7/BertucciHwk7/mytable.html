@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Table</title>
+
+        <style>
+            table {
+                border-width: 5px;
+                border-style: outset;
+                border-color: darkblue cyan darkblue cyan;
+                margin: 0 auto;
+                width: 60%;
+                border-collapse: collapse;
+            }
+            
+            th {
+                padding: 15px;
+                color:white;
+            }
+            
+            .shrubs {
+                background-color: blue;
+                font-style: italic;
+                
+            }
+
+            .flowering-plants {
+                background-color: red;
+                font-style: italic;
+                
+            }
+
+            .title {
+                background-color: rgb(228, 228, 252);
+                text-shadow: 2px 2px 4px blue;
+            }
+
+            .flowering-plants-data {
+                background-color:rgb(152, 254, 254);
+            }
+
+            .shrub-data {
+                 background-color:rgb(255, 237, 179)
+            }
+
+            td {
+                border: 2px solid green;
+                padding-left: 20px;
+                color: blue;
+            }
+
+            .merged {
+                text-align: center;
+                vertical-align: middle;
+                color:black;
+                font-weight: bold;
+            }
+
+            caption {
+                caption-side: bottom;
+                font-size: 16px;
+                font-style: italic;
+                color: #600;
+                font-weight: bold;
+            }
+
+        </style>
+    </head>
+    <body>
+        <table>
+            <caption>Plants Forever</caption>
+            <thead>
+                <tr>
+                    <th class="title" colspan="4">Landscaping for the Perenial Garden</th>
+                </tr>
+                <tr>
+                    <th class ="shrubs">Shrubs</th>
+                    <th class ="flowering-plants" colspan="3">Flowering Plants</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="shrub-data">Rose of Sharon</td>
+                    <td class="merged" colspan="3" rowspan="2">Full Sun</td>
+                </tr>
+                <tr>
+                    <td class="shrub-data">roses</td>
+                </tr>
+                <tr>
+                    <td class="shrub-data">Liliacs</td>
+                    <td class="flowering-plants-data">Russian Sage</td>
+                    <td class="flowering-plants-data">Daylilies</td>
+                    <td class="flowering-plants-data">Geraniums</td>
+                </tr>
+                <tr>
+                    <td class="shrub-data">Hydrangeas</td>
+                    <td class="merged" colspan="3" rowspan="2">Shade</td>
+                </tr>
+                <tr>
+                    <td class="shrub-data" >Peonies</td>
+                </tr>
+                <tr>
+                    <td class="shrub-data">Grasses</td>
+                    <td class="flowering-plants-data">Bleeding Hearts</td>
+                    <td class="flowering-plants-data">Hostas</td>
+                    <td class="flowering-plants-data">Astilbe</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+    </body>
+</html>
