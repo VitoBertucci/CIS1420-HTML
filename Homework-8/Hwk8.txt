@@ -1,0 +1,169 @@
+Hwk 8
+Due Date November 9, 2023
+
+Directions:  
+	1. Place the zipped folder’s files into a folder named yourlastnamehwk8. 
+	2. Be sure to create an assets folder for the images.
+
+    Columns:
+        1. Open the file named sitcom.html.
+
+        2. Add a header tag before and after the text “Understanding the Modern Sitcom.”
+            a. Set the background color to a diagonal gradient red to yellow.
+            b. Place a heading one tag around the text “Understanding the Modern Sitcom.”
+            c. Format the color of the text to a dark shade of brown, italic, bold
+
+        3. Add an opening and closing main tag.  Set the display to block
+
+        4. Add an opening and closing article tag.  Set the display to block
+
+        5. Change the text of the paragraphs so there are 2 columns of text
+            a. The column rule is dark red, double,3px.  Hint:  watch your syntax
+            b. Set the column gap to 10px.
+
+    CSS Files:
+        1. Open the html file named blooms.html 
+            a. Place the petunias.jpg before the paragraph tag about the petunias.
+            b. Place the verbena.jpg before the paragraph about verbena.
+
+        2. Create a CSS style sheet named blooms.css with the following style rules:
+
+            a. Set the body tag 
+                - background color is #FFC
+                
+            b. Set the p tag
+                - Font is Times New Roman
+                - Font size is 12
+                - Font color is dark green
+
+            c. text align center the h2 tag
+
+            d. Create a class named heading and assign it to the h3 heading
+                - font family to “Times New Roman”, Times, serif
+                - font size to 18px
+                - text align center
+                - color #660033
+
+            e. Create a class named lt and assign it to petunias.jpg
+                - Set the float to left
+                - Right margin to 10px
+                - Top margin to 5px
+
+            f. Create a class named rt and assign it to verbenia.jpg
+                - Set the float to right
+                - Right margin to 10px
+                - Left margin to 10px
+
+            g. Link the stylesheet to the blooms file.
+
+    Multimedia:
+        1. Open the file named kenya.html.
+            a. Add the following CSS within the <style> tag:
+
+                .new {
+                    display:inline; 
+                    height:200px;
+                    width:200px;
+                }
+            
+                .new img {
+                    width:60px;
+                    height:85px;
+                    margin-left:100px; 
+                    transition: width 2s, height 2s, transform 2s;     
+                }
+        
+                .new  img:hover {
+                    width:123px;
+                    height:170px;
+                    transform: rotate(360deg);
+                }
+
+            b. Add a header tag before the text “Destination: Kenya” and after the <hr /> tag.
+                - Set the CSS: display is block. height is 200px.  width is 100%.
+                - Place a heading two tag around the text “Destination:Kenya”
+                - Change the color of the heading two text to white with the following three-color text shadow:  text-shadow: 1px 1px 2px black, 0 0 25px violet, 0 0 5px purple;  
+                - Center the text of the heading two.
+                - CSS for the <hr /> tag: margin is auto, background-color is blue, width is 80%, the height is 5px and border is 0.
+
+            c. Add an opening and closing main tag appropriately.  Set the display to block
+
+            d. Add an opening and closing article tag around the paragraph tag.  Set the display to block
+
+            e. Change the text of the paragraph so there are 3 columns of text
+                - The column rule is blue, solid, 2px.
+                - Set the column gap to 20px.
+                - Justify the text
+
+            f. Add a second opening and closing article tag
+                - Place a centered <h2> with the text “Animals that you may see on Safari”
+                - Place 4 <div> tags set to the class named new.  
+                - Within each <div> tag place an image: zebra_mothers, meerkat, rhino, lion
+
+        2. Open a new html file and name it Animation.html.
+            a. Add the following CSS to an <h1> tag:
+
+                h1 {
+                    animation: moveright 4s ease-in-out 4s infinite alternate;
+                    box-shadow: 5px 5px 5px gray;
+                }
+
+                @keyframes moveright {
+                    from { 
+                        margin-left:20%;
+                        color: purple;
+                    }
+                    to {
+                        margin-left:60%;
+                        color: green;
+                    }
+                }
+
+            b. Within the body tag, set the text of the <h1> tag to CIS1420.
+
+        3. Open a new web page and name it transitionExample.html
+            a. Create a class named first:
+                - position is absolute
+                - padding is 5px
+                - color is white
+                - Font weight is bold
+                - width and height is 25px
+                - background is green
+                - border radius is 25px
+                - overflow is hidden
+                - transition is width 2s, height 4s
+
+            b. Set the hover state of the class named first:
+                - z-index is 1
+                - width and height is 300px
+
+            c. Create a class named second:
+                - background is cyan
+                - padding is 20px
+                - width and height is 400px
+
+            d. Center the heading 2 tag
+
+            e. Set the CSS for the hr tag:
+                - width is 75%
+                - margin is auto
+                - border is 0
+                - height is 5px
+                - background is red
+
+            f. Within the body tag 
+                - Add an opening and closing main tag.
+                - Set the main tag to the class named second.
+                - Within the main tag add an open and closing article tag.  
+                - Set the article tag to the class named first.
+                -  Add two <br> tags to the beginning of the article tag.
+                - Add an opening and closing <p> tag to the article tag.  
+                - Paragraph tag Text: Use overflow property to show and tell information.  Hover over the article element, to see the transition effect:
+                - Add a heading 2 tag.  Set the heading 2 text:  Transition Property
+                - Add an <hr /> tag.
+                
+            g. Save your file.  
+
+Save all your work in a zipped folder named yourlastnamehwk8.zip and upload the zipped folder to d2l.
+
+

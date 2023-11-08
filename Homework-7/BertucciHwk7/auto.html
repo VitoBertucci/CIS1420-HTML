@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Auto Table</title>
+        <style>
+            table {
+                border-width: 5px;
+                border-style: outset;
+                border-color: cyan darkblue darkblue cyan;
+                margin: 0 auto;
+                width: 60%;
+                border-collapse: collapse;
+            }
+
+            th {
+                padding: 15px;
+                text-align: center;
+                vertical-align: middle;
+            }
+
+            .title {
+                background-color: lime;
+            }
+
+            .red,
+            .brown,
+            .light-blue,
+            .dark-blue {
+                padding: 15px;
+                text-align: center;
+                vertical-align: middle;
+                font-weight: bold;
+            }
+
+            .red {
+                background-color: red;
+            }
+
+            .brown {
+                background-color: rgb(183, 119, 59);
+            }
+
+            .light-blue {
+                background-color: rgb(0, 149, 255);
+            }
+
+            .dark-blue {
+                background-color: rgb(49, 81, 175);
+            }
+
+            td {
+                padding: 15px;
+                border: 2px solid black;
+                text-align: center;
+                vertical-align: middle;
+                background-color: rgb(255, 255, 64);
+            }
+        </style>
+    </head>
+
+    <body>
+        <table class="tg">
+            <thead>
+                <tr>
+                    <th class="title" colspan="5">Tucker's Auto Supply</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="red" colspan="2" rowspan="2">Drive Belt Deflection</td>
+                    <td class="red" colspan="2">Used Belt Deflection</td>
+                    <td class="red" rowspan="2">Set Deflection of new Belt</td>
+                </tr>
+                <tr>
+                    <td class="brown">Limit</td>
+                    <td class="brown">Adjust Deflection</td>
+                </tr>
+                <tr>
+                    <td class="light-blue" rowspan="2">Alternator</td>
+                    <td>Models without AC</td>
+                    <td>10 mm</td>
+                    <td>5 - 7 mm</td>
+                    <td rowspan="2">5 - 7 mm</td>
+                </tr>
+                <tr>
+                    <td>Models with AC</td>
+                    <td>12 mm</td>
+                    <td>6 - 8 mm</td>
+                </tr>
+                <tr>
+                    <td class="dark-blue" colspan="2">Power Steering Pump</td>
+                    <td>12.5 mm</td>
+                    <td>7 - 9 mm</td>
+                    <td>6 - 8 mm</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+
+</html>

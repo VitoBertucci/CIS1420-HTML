@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            .first {
+                position: absolute;
+                padding: 5px;
+                color: white;
+                font-weight: bold;
+                width: 25px;
+                height: 25px;
+                background: green;
+                border-radius: 25px;
+                overflow: hidden;
+                transition: width 2s, height 4s;
+            }
+
+            .first:hover {
+                z-index: 1;
+                width: 300px;
+                height: 300px;
+            }
+
+            .second {
+                background: cyan;
+                padding: 20px;
+                width: 400px;
+                height: 400px;
+            }
+
+            h2 {
+                text-align: center;
+            }
+
+            hr {
+                width: 75%;
+                margin: auto;
+                border: 0;
+                height: 5px;
+                background: red;
+            }
+        </style>
+    </head>
+
+    <body>
+        <main class="second">
+            <h2>Transition Property</h2>
+            <hr />
+            <article class="first">
+                <br>
+                <br>
+                <p>Use overflow property to show and tell information. Hover over the article element, to see the transition effect:</p>
+            </article>
+        </main>
+
+    </body>
+
+</html>
