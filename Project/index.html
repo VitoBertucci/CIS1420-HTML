@@ -1,86 +1,138 @@
-<!-- 
-    - **HTML Requirements:**
-
-  - SEO and Meta Tags
-    - Ensure that each webpage has appropriate meta tag(s).
-    - Keywords used in meta tags should accurately reflect the content of each page.
-  - Lists
-    - Implement a nested ordered list.
-    - Implement a nested unordered list.
-  - Content Structure
-    - Utilize three levels of headings (`<h1>`, `<h2>`, `<h3>`).
-    - Create at least two tables, one with borders and one without.
-      - Experiment with row and column spanning.
-      - Apply CSS IDs to customize cell specifications.
-      - Include a table caption.
-  - Forms
-    - Include a minimum of three different form controls.
-  - HTML5 Semantic Tags
-    - Utilize HTML5 semantic tags such as:
-      - `<header>`.
-      - `<nav>`.
-      - `<section>` or `<article>`.
-      - `<figure>`, etc.
-    - Customize these tags with CSS to modify attributes like size, color, and padding.
-  - Links
-    - Include links to external websites.
-    - Utilize named anchors for quick navigation to specific sections within your pages.
-  - Multimedia
-    - Include multimedia elements, such as movies and/or audio.
-  - Layout
-    - Organize content into columns.
-    - Define spacing and rules for separating elements.
-  - Images
-    - Include images.
-    - Optionally, use unordered lists to organize images.
-    - Implement image maps based on PowerPoint-styled images.
-
-- **Other Requirements:**
-  - Accessibility
-    - Ensure that your design and layout adhere to accessibility concepts.
-  - Responsive Design
-    - Make the website responsive to different screen sizes.
-    - Implement a layout using either flexbox or grid.
-    - Incorporate HTML5 semantic tags on at least one page.
-    - Use media queries to ensure responsiveness.
-  - Home Pages and Pages
-    - Create a robust home page.
-    - Develop at least three distinct pages within your website.
--->
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="description" content="Computer Science Major - Portfolio">
-      <meta name="keywords" content="computer science, software engineering, portfolio">
-      <title>Your Name - Portfolio</title>
+      <meta name="description" content="Vito Bertucci - Software Engineer Portfolio">
+      <meta name="keywords" content="software engineer, computer science, full stack developer">
+      <title>Vito Bertucci | Software Engineer</title>
       <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   </head>
   <body>
-      <header>
-          <nav>
-            <ul>
-                <li><a href="index.htm" class = "active-link">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-            </ul>
-        </nav>
+      
+      <header class="header">
+          <nav class="nav-container">
+              <div class="logo">
+                  <span class="logo-text">VB</span>
+              </div>
+              <div class="nav-links">
+                  <a href="#home" class="nav-link active">Home</a>
+                  <a href="#about" class="nav-link">About</a>
+                  <a href="#experience" class="nav-link">Experience</a>
+                  <a href="#projects" class="nav-link">Projects</a>
+              </div>
+              <button class="mobile-menu-toggle">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+              </button>
+          </nav>
       </header>
 
       <main>
-          <section id="home">
-            <div class="content-container">
-                <div class="left-half">
-                    <h1>Vito Bertucci</h1>
-                    <h2>Computer Science Major</h2>
-                    <p>Welcome to my portfolio website. I'm a computer science major with a passion for software engineering. Explore my projects and get in touch to learn more.</p>
-                </div>
-                <div class="right-half">
-                    <p>I am a computer science major specializing in software engineering. With a strong foundation in programming and problem-solving, I have worked on a variety of projects that showcase my skills.</p>
-                </div>
-            </div>
+          <section id="home" class="hero-section">
+              <div class="hero-content">
+                  <h1 class="glitch" data-text="Vito Bertucci">Vito Bertucci</h1>
+                  <div class="cta-buttons">
+                      <a href="#projects" class="cta-primary">View Projects</a>
+                      <a href="#contact" class="cta-secondary">Get in Touch</a>
+                  </div>
+              </div>
+              <div class="hero-background">
+                  <div class="particles"></div>
+              </div>
+          </section>
+
+          <section id="about">
+              <h2>About</h2>
+              <p>I'm a driven Computer Science major with a proven track record of implementing innovative technical solutions in professional settings. From developing custom Python programs for inventory management to analyzing operational data for process optimization, I've demonstrated my ability to apply programming skills to solve real business challenges. Currently seeking opportunities in the technology field, I combine strong technical aptitude with practical experience in team leadership and project execution. My interests span across robotics, web development, backend systems, cybersecurity, and information systems, with a particular focus on creating efficient, scalable solutions that drive business value.</p>
+
+              <h2>Skills</h2>
+              <div class="skills-grid">
+                  <div class="skills-category">
+                      <h3>Programming Languages</h3>
+                      <div class="skills-list">
+                          <span class="skill-item">Java</span>
+                          <span class="skill-item">C++</span>
+                          <span class="skill-item">C</span>
+                          <span class="skill-item">Python</span>
+                          <span class="skill-item">SQL</span>
+                      </div>
+                  </div>
+
+                  <div class="skills-category">
+                      <h3>Web Technologies</h3>
+                      <div class="skills-list">
+                          <span class="skill-item">HTML5</span>
+                          <span class="skill-item">CSS</span>
+                          <span class="skill-item">React</span>
+                          <span class="skill-item">Redux</span>
+                      </div>
+                  </div>
+
+                  <div class="skills-category">
+                      <h3>Tools & Systems</h3>
+                      <div class="skills-list">
+                          <span class="skill-item">Git</span>
+                          <span class="skill-item">DBMS</span>
+                          <span class="skill-item">Oracle</span>
+                          <span class="skill-item">Microsoft Office Suite</span>
+                          <span class="skill-item">Google Suite</span>
+                      </div>
+                  </div>
+              </div>
+
+              <h2>Education</h2>
+              <h3>OAKLAND UNIVERSITY</h3>
+              <p>Auburn Hills | January 2022 - Present</p>
+              <p>Bachelor of Computer Science | GPA: 3.50</p>
+
+              <h3>OAKLAND COMMUNITY COLLEGE</h3>
+              <p>Auburn Hills | September 2020 - December 2021</p>
+              <p>Computer Science | GPA: 3.66</p>
+          </section>
+
+          <section id="experience">
+              <h2>Experience</h2>
+              <h3>AllPlay Construction</h3>
+              <p>Shift Lead (July 2023 - Present)</p>
+              <ul>
+                  <li>Ensure precision in playground assembly and site preparation with focus on safety and detail</li>
+                  <li>Communicate job site scopes effectively to crew members</li>
+                  <li>Understand and verify product assembly compliance with CPSI Safety codes</li>
+                  <li>Lead problem-solving initiatives for installation challenges</li>
+              </ul>
+
+              <h3>Captain's Club at Woodfield</h3>
+              <p>Pro Shop Manager/League Coordinator (March 2021 - September 2022)</p>
+              <ul>
+                  <li>Optimized league schedules to improve player satisfaction and revenue</li>
+                  <li>Developed custom Python program for inventory management</li>
+                  <li>Implemented barcode system for streamlined inventory tracking</li>
+                  <li>Analyzed operational data to improve course efficiency</li>
+              </ul>
+          </section>
+
+          <section id="projects">
+              <h2>Projects</h2>
+              <div class="projects-wrapper">
+                  <button class="scroll-indicator scroll-left" aria-label="Scroll left">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                          <path d="M15 18l-6-6 6-6"></path>
+                      </svg>
+                  </button>
+                  <button class="scroll-indicator scroll-right" aria-label="Scroll right">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                          <path d="M9 18l6-6-6-6"></path>
+                      </svg>
+                  </button>
+                  <div id="github-projects">
+                      <!-- Projects will be loaded here dynamically -->
+                      <div class="loading">Loading projects...</div>
+                  </div>
+              </div>
           </section>
       </main>
 
@@ -93,8 +145,8 @@
               <li><a href="https://github.com/VitoBertucci">GitHub</a></li>
               <li><a href="resources/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
           </ul>
-      </div>
-    </footer>
+        </div>
+      </footer>
       <script src="script.js"></script>
   </body>
 </html>

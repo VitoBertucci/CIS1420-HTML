@@ -1,0 +1,32 @@
+irections:
+	•	Create a new folder named YourLastNameHwk10.
+	•	Place the two images into an assets folder within the folder named YourLastNameHwk10.
+	•	Add the meta tag for the viewport.
+	•	Open the html file named safari.html and make the following changes within the <style> tag. 
+	•	 Place the box-sizing property after the opening <style> tag.  Place an asterisk before the opening curly brace.
+	•	 body tag CSS:  font family is Times New Roman.  The background color is silver. 
+	•	 After the comment /*Style the header */:  place the following header CSS:  set the background-image property to a linear gradient to right red yellow; padding is .61em, center the text, height is 6.2em and bottom margin is .61em.
+	•	 After the comment /*Container for flexboxes */: create a class named row and set the display to flex.
+	•	 After the comment /*Create three unequal columns that sit next to each other */:  create a class named column and set the padding to .61em and the height to 31.2em.
+	•	 After the comment /*Left and right column */: place two classes together named  .column.side1 and set the flex direction to column, background color is antiquewhite, padding is .61em, the font size is 1em and the flex is 1.  
+Create a second class set of two classes named:  .column.side2 and set the flex to 1 and background color to white.
+	•	 img tag CSS: set the max-width to 100%, padding 1em, background color is tan, border is .2em solid brown, border-radius is 1.5em and the top margin is 2em.
+	•	 a tag CSS: set the display to flex, justify-content is center, font color is purple background color is silver, text-decoration is none, margin is .5em, padding is 1.3em, border is .15em solid green, border-radius is 1em.
+	•	 After the comment /*Middle column */:  Place two classes named .column.middle together and set the CSS:  left and right borders are 2px solid green, the overflow is auto, the flex is 3 and the background color is white.
+	•	p tag CSS:  columns are 2 and the text is justify.
+	•	Footer CSS: the top margin is 10px, the background image is a linear-gradient to right red yellow, padding is .61em, center the text, height is 6.2em
+	•	After the comment /*Responsive layout */: 
+	•	Create a media query set to  screen and (max-width:600px).   
+	•	Within the query, add the following CSS:  
+                 a. Set the CSS of the .row class --flex-direction  is column
+              b. Set the p tag CSS --columns is 1
+              c. Set the CSS for .column.side2  order is 2 
+              d. Set the CSS .column.middle  order is 3
+
+	•	Within the html code
+	•	Set the <main> tag to a class named row
+	•	Set the <nav> tag to two classes:  column side1
+	•	Set the <article> to two classes column middle
+	•	Set the <aside> to two classes column side2 and place the two images within the tag.
+	•	Save your work.  Place your folder inside a zipped folder named YourLastNameHwk10.zip and upload it to d2l
+

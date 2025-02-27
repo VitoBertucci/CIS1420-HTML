@@ -1,0 +1,52 @@
+Vito Bertucci Auburn Hills, MI | Phone: 248-875-3411 | vito.rob.bertucci@gmail.com  
+github.com/vitobertucci | linkedin.com/in/vitorobbertucci/  
+ 
+OVERVIEW   
+I am a driven Computer Science major eager to enhance my technical skills and embark on a rewarding career in 
+the IT field. My diverse experience includes successful team management, proficient data management and analysis, 
+and the development and implementation of custom software solutions. I thrive on solving intriguing and complex 
+problems and maintain a positive attitude in all my endeavors.  
+Currently, I am seeking my first step into technology field, where I can apply my skills to solve day-to-day 
+operational challenges for organizations. I'm passionate about technology and system development, from robotics 
+and web development to backend, cybersecurity, and information systems—if it involves building and innovating, I'm 
+interested. 
+  PROJECTS   
+Custom Item Tags - Python 
+● Developed a Python program to create custom item tags using SKU numbers, prices, and item names. 
+● Significantly improved inventory and payment processing efficiency by utilizing zebra bar codes. 
+● Seamlessly integrated with existing stock management systems, enhancing the customer experience by 
+enabling easy access to item prices. 
+League Revenue and Budget Tracking Spreadsheet - Microsoft Excel 
+● Created a custom Excel spreadsheet to track league payments, including payment dates and amounts. 
+● Utilized data to update total revenue and analyze budget allocations for each league. 
+● Implemented advanced formulas and conditional formatting to automate calculations and highlight payment 
+discrepancies. 
+  SKILLS  
+● Technical: Java, C++, C, SQL, HTML5, CSS 
+● Soft Skills: Team leadership, effective communication, problem solving, collaboration, creativity, curiosity 
+● Languages: Conversational Spanish (4 years) 
+● Tools: Microsoft Office Suite, Google Suite 
+  EDUCATION  
+OAKLAND UNIVERSITY - Auburn Hills (January 2022 - Present)  
+Bachelor of Computer Science  
+● Cumulative GPA: 3.50 
+OAKLAND COMMUNITY COLLEGE - Auburn Hills (September 2020 - December 2021)  
+Bachelor of Computer Science 
+● Completed Classes for transfer to Oakland University 
+● Cumulative GPA: 3.66 
+  EXPERIENCE   
+AllPlay Construction (July 2023 - Present) 
+Shift Lead ● Ensured precision in playground assembly and site preparation emphasizing safety and detail. 
+● Understood and communicated job site scopes  to the crew, ensuring site expectations. 
+● Understand product assembly without installs in front of me, in order to better catch mistakes or possible 
+problems as well as act as a resource to the rest of the crew. 
+● Ensure all products are installed correctly, everything follows CPSI Safety codes, all wear and damage is fixed, 
+and ensure all customer requirements are fulfilled. 
+Captain’s Club at Woodfield (March 2021 - September 2022) 
+Pro Shop Manager/League Coordinator  
+● Analyzed and optimized league schedules, ensuring a consistent pace of play each week, leading to increased 
+player satisfaction and retention, positively impacting post-league revenue in the restaurant. 
+● Collected and analyzed data from team members during league play to improve course operations. 
+● Created a custom Python program to simplify inventory management - utilized barcode generations from item 
+SKU numbers, and formatted them for printing onto items, streamlining  inventory tracking and transaction 
+speed. 
